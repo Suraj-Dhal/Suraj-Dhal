@@ -1,19 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Recognition: Best Intern of the Month at ScaleOXperts, August 2025; Letter of Recommendation from the ScaleOXperts co-founder, November 2025.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-label="Recognition: Best Intern of the Month at ScaleOXperts, August 2025. Letter of Recommendation from the ScaleOXperts co-founder, November 2025.">
   <defs>
-    <pattern id="diamonds" width="40" height="40" patternUnits="userSpaceOnUse">
-      <rect width="40" height="40" fill="#101012"/>
-      <path d="M20 0 40 20 20 40 0 20Z" fill="#17171a"/>
+    <pattern id="diamonds" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="translate(0 0)">
+      <rect width="40" height="40" fill="#0f0f11"/>
+      <path d="M20 0 40 20 20 40 0 20Z" fill="#151518"/>
     </pattern>
-    <linearGradient id="fadeGrad" x1="0" x2="1" y1="0" y2="0">
+    <linearGradient id="fadeGrad" gradientUnits="userSpaceOnUse" x1="0" x2="1200" y1="0" y2="0">
       <stop offset="0" stop-color="#fff"/>
       <stop offset="0.6" stop-color="#000"/>
     </linearGradient>
-    <mask id="fadeMask"><rect width="1200" height="150" fill="url(#fadeGrad)"/></mask>
-    <radialGradient id="glow" cx="600" cy="150" r="500" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#3e2219" stop-opacity="0.95"/>
+    <mask id="fadeMask"><rect width="1200" height="280" fill="url(#fadeGrad)"/></mask>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#3e2219" stop-opacity="0.9"/>
       <stop offset="1" stop-color="#3e2219" stop-opacity="0"/>
     </radialGradient>
-    <clipPath id="card"><rect width="1200" height="150" rx="16"/></clipPath>
   </defs>
   <style>
     .rise { animation: rise .8s cubic-bezier(.16,1,.3,1) both; }
@@ -34,22 +33,25 @@
     @keyframes run { from { stroke-dashoffset: 1000; } to { stroke-dashoffset: 0; } }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
   </style>
-  <g clip-path="url(#card)">
-    <rect width="1200" height="150" fill="#0b0b0d"/>
-    
-    <rect width="1200" height="150" fill="url(#glow)"/>
+  <rect width="1200" height="280" fill="#0b0b0d"/>
+  <rect width="1200" height="280" fill="url(#diamonds)" mask="url(#fadeMask)"/>
+  
+  
+  <g class="fade">
+    <rect class="growy" x="64" y="46" width="3" height="20" fill="#fe5206"/>
+    <text x="78" y="62" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="2.6">RECOGNITION</text>
   </g>
-  <rect x="0.5" y="0.5" width="1199" height="149" rx="15.5" fill="none" stroke="#2a2a2e"/>
-  <g class="rise" style="animation-delay:0.1s">
-    <rect x="40" y="32" width="550" height="86" rx="12" fill="#141418" stroke="#2a2a2e"/>
-    <g class="pop pulse" style="animation-delay:0.3s"><path d="M84 59l3.8 8.4 9.2 1-6.9 6.2 2 9-8.1-4.7-8.1 4.7 2-9-6.9-6.2 9.2-1z" fill="#fe5206"/></g>
-    <text x="120" y="68" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700">Best Intern of the Month</text>
-    <text x="120" y="96" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16">ScaleOXperts · Certificate of Appreciation, August 2025</text>
+  <text class="rise" style="animation-delay:0.1s" x="64" y="112" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="800" letter-spacing="-1"><tspan>Work</tspan><tspan> that</tspan><tspan> was</tspan><tspan fill="#fe5206" font-style="italic"> noticed</tspan></text>
+  <g class="rise" style="animation-delay:0.15s">
+    <rect x="64" y="150" width="526" height="88" rx="12" fill="#131316" stroke="#232328"/>
+    <g class="pop pulse" style="animation-delay:0.35s"><path d="M108 179l3.8 8.4 9.2 1-6.9 6.2 2 9-8.1-4.7-8.1 4.7 2-9-6.9-6.2 9.2-1z" fill="#fe5206"/></g>
+    <text x="144" y="188" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700">Best Intern of the Month</text>
+    <text x="144" y="214" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16">ScaleOXperts · Certificate of Appreciation, August 2025</text>
   </g>
-  <g class="rise" style="animation-delay:0.25s">
-    <rect x="610" y="32" width="550" height="86" rx="12" fill="#141418" stroke="#2a2a2e"/>
-    <g class="pop pulse" style="animation-delay:0.44999999999999996s"><path d="M654 59l3.8 8.4 9.2 1-6.9 6.2 2 9-8.1-4.7-8.1 4.7 2-9-6.9-6.2 9.2-1z" fill="#fe5206"/></g>
-    <text x="690" y="68" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700">Letter of Recommendation</text>
-    <text x="690" y="96" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16">ScaleOXperts co-founder · November 2025</text>
+  <g class="rise" style="animation-delay:0.3s">
+    <rect x="610" y="150" width="526" height="88" rx="12" fill="#131316" stroke="#232328"/>
+    <g class="pop pulse" style="animation-delay:0.5s"><path d="M654 179l3.8 8.4 9.2 1-6.9 6.2 2 9-8.1-4.7-8.1 4.7 2-9-6.9-6.2 9.2-1z" fill="#fe5206"/></g>
+    <text x="690" y="188" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700">Letter of Recommendation</text>
+    <text x="690" y="214" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16">ScaleOXperts co-founder · November 2025</text>
   </g>
 </svg>

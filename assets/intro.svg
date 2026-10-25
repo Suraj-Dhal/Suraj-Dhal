@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" role="img" aria-label="Curious about emerging technologies, digital systems, and ideas that can solve real-world problems. Exploring AI, technology and business. Growth and lead generation. Crafting prompts, visuals and knowledge panels. Building portfolio websites end to end.">
+  <defs>
+    <pattern id="diamonds" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="translate(0 0)">
+      <rect width="40" height="40" fill="#0f0f11"/>
+      <path d="M20 0 40 20 20 40 0 20Z" fill="#151518"/>
+    </pattern>
+    <linearGradient id="fadeGrad" gradientUnits="userSpaceOnUse" x1="0" x2="1200" y1="0" y2="0">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.6" stop-color="#000"/>
+    </linearGradient>
+    <mask id="fadeMask"><rect width="1200" height="200" fill="url(#fadeGrad)"/></mask>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#3e2219" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#3e2219" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="m0"><rect class="tm0" x="281" y="122" width="638" height="50" fill="#fff"/></mask>
+    <mask id="m1"><rect class="tm1" x="373.5" y="122" width="453" height="50" fill="#fff"/></mask>
+    <mask id="m2"><rect class="tm2" x="205.5" y="122" width="789" height="50" fill="#fff"/></mask>
+    <mask id="m3"><rect class="tm3" x="273" y="122" width="654" height="50" fill="#fff"/></mask>
+  </defs>
+  <style>
+    .rise { animation: rise .8s cubic-bezier(.16,1,.3,1) both; }
+    .fade { animation: fade 1s ease both; }
+    .grow { transform-box: fill-box; transform-origin: left center; animation: grow .9s cubic-bezier(.16,1,.3,1) both; }
+    .growy { transform-box: fill-box; transform-origin: center top; animation: growy 1s cubic-bezier(.16,1,.3,1) both; }
+    .pop { transform-box: fill-box; transform-origin: center; animation: pop .6s cubic-bezier(.34,1.56,.64,1) both; }
+    .pulse { animation: pulse 2.8s ease-in-out infinite; }
+    .twinkle { animation: twinkle 4.2s ease-in-out infinite; }
+    .run { animation: run 6s linear infinite; }
+    @keyframes rise { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+    @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    @keyframes growy { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+    @keyframes pop { from { opacity: 0; transform: scale(.2); } to { opacity: 1; transform: none; } }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .35; } }
+    @keyframes twinkle { 0%, 100% { opacity: .15; } 50% { opacity: .6; } }
+    @keyframes run { from { stroke-dashoffset: 1000; } to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    .tm0 { transform-box: fill-box; transform-origin: left center; animation: t0 14.4s infinite; animation-delay: -14.40s; }
+    .tc0 { animation: c0 14.4s infinite; animation-delay: -14.40s; }
+    @keyframes t0 { 0% { transform: scaleX(0); animation-timing-function: steps(37, end); } 13% { transform: scaleX(1); } 21% { transform: scaleX(1); animation-timing-function: steps(37, end); } 24.5% { transform: scaleX(0); } 100% { transform: scaleX(0); } }
+    @keyframes c0 { 0% { opacity: 1; transform: translateX(0); animation-timing-function: steps(37, end); } 13% { transform: translateX(622px); } 21% { transform: translateX(622px); animation-timing-function: steps(37, end); } 24.5% { opacity: 1; transform: translateX(0); } 24.6%, 100% { opacity: 0; } }
+    .tm1 { transform-box: fill-box; transform-origin: left center; animation: t1 14.4s infinite; animation-delay: -10.80s; }
+    .tc1 { animation: c1 14.4s infinite; animation-delay: -10.80s; }
+    @keyframes t1 { 0% { transform: scaleX(0); animation-timing-function: steps(26, end); } 13% { transform: scaleX(1); } 21% { transform: scaleX(1); animation-timing-function: steps(26, end); } 24.5% { transform: scaleX(0); } 100% { transform: scaleX(0); } }
+    @keyframes c1 { 0% { opacity: 1; transform: translateX(0); animation-timing-function: steps(26, end); } 13% { transform: translateX(437px); } 21% { transform: translateX(437px); animation-timing-function: steps(26, end); } 24.5% { opacity: 1; transform: translateX(0); } 24.6%, 100% { opacity: 0; } }
+    .tm2 { transform-box: fill-box; transform-origin: left center; animation: t2 14.4s infinite; animation-delay: -7.20s; }
+    .tc2 { animation: c2 14.4s infinite; animation-delay: -7.20s; }
+    @keyframes t2 { 0% { transform: scaleX(0); animation-timing-function: steps(46, end); } 13% { transform: scaleX(1); } 21% { transform: scaleX(1); animation-timing-function: steps(46, end); } 24.5% { transform: scaleX(0); } 100% { transform: scaleX(0); } }
+    @keyframes c2 { 0% { opacity: 1; transform: translateX(0); animation-timing-function: steps(46, end); } 13% { transform: translateX(773px); } 21% { transform: translateX(773px); animation-timing-function: steps(46, end); } 24.5% { opacity: 1; transform: translateX(0); } 24.6%, 100% { opacity: 0; } }
+    .tm3 { transform-box: fill-box; transform-origin: left center; animation: t3 14.4s infinite; animation-delay: -3.60s; }
+    .tc3 { animation: c3 14.4s infinite; animation-delay: -3.60s; }
+    @keyframes t3 { 0% { transform: scaleX(0); animation-timing-function: steps(38, end); } 13% { transform: scaleX(1); } 21% { transform: scaleX(1); animation-timing-function: steps(38, end); } 24.5% { transform: scaleX(0); } 100% { transform: scaleX(0); } }
+    @keyframes c3 { 0% { opacity: 1; transform: translateX(0); animation-timing-function: steps(38, end); } 13% { transform: translateX(638px); } 21% { transform: translateX(638px); animation-timing-function: steps(38, end); } 24.5% { opacity: 1; transform: translateX(0); } 24.6%, 100% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .tline, .tcur { display: none; } .tline0 { display: inline; } [class^="tm"] { transform: none; } }
+  </style>
+  <rect width="1200" height="200" fill="#0b0b0d"/>
+  <rect width="1200" height="200" fill="url(#diamonds)" mask="url(#fadeMask)"/>
+  
+  <text class="rise" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" text-anchor="middle"><tspan x="600" y="62">Curious about emerging technologies, digital systems, and ideas</tspan><tspan x="600" y="94">that can solve real-world problems.</tspan></text>
+  <rect class="grow" style="animation-delay:0.3s" x="576" y="114" width="48" height="2" fill="#fe5206"/>
+  <g class="tline tline0">
+    <text mask="url(#m0)" x="600" y="158" text-anchor="middle" fill="#fe5206" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="-.3">Exploring AI, technology and business</text>
+    <rect class="tcur tc0" x="287" y="130" width="3" height="34" fill="#fe5206"/>
+  </g>
+  <g class="tline tline1">
+    <text mask="url(#m1)" x="600" y="158" text-anchor="middle" fill="#fe5206" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="-.3">Growth and lead generation</text>
+    <rect class="tcur tc1" x="379.5" y="130" width="3" height="34" fill="#fe5206"/>
+  </g>
+  <g class="tline tline2">
+    <text mask="url(#m2)" x="600" y="158" text-anchor="middle" fill="#fe5206" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="-.3">Crafting prompts, visuals and knowledge panels</text>
+    <rect class="tcur tc2" x="211.5" y="130" width="3" height="34" fill="#fe5206"/>
+  </g>
+  <g class="tline tline3">
+    <text mask="url(#m3)" x="600" y="158" text-anchor="middle" fill="#fe5206" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="-.3">Building portfolio websites end to end</text>
+    <rect class="tcur tc3" x="279" y="130" width="3" height="34" fill="#fe5206"/>
+  </g>
+</svg>

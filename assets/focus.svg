@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Current focus. Building thoughtful web experiences for academic and personal brands. Exploring practical applications of AI and emerging technology. Improving the connection between research, business, and digital storytelling.">
+  <defs>
+    <pattern id="diamonds" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="translate(0 0)">
+      <rect width="40" height="40" fill="#0f0f11"/>
+      <path d="M20 0 40 20 20 40 0 20Z" fill="#151518"/>
+    </pattern>
+    <linearGradient id="fadeGrad" gradientUnits="userSpaceOnUse" x1="0" x2="1200" y1="0" y2="0">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.6" stop-color="#000"/>
+    </linearGradient>
+    <mask id="fadeMask"><rect width="1200" height="360" fill="url(#fadeGrad)"/></mask>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#3e2219" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#3e2219" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .rise { animation: rise .8s cubic-bezier(.16,1,.3,1) both; }
+    .fade { animation: fade 1s ease both; }
+    .grow { transform-box: fill-box; transform-origin: left center; animation: grow .9s cubic-bezier(.16,1,.3,1) both; }
+    .growy { transform-box: fill-box; transform-origin: center top; animation: growy 1s cubic-bezier(.16,1,.3,1) both; }
+    .pop { transform-box: fill-box; transform-origin: center; animation: pop .6s cubic-bezier(.34,1.56,.64,1) both; }
+    .pulse { animation: pulse 2.8s ease-in-out infinite; }
+    .twinkle { animation: twinkle 4.2s ease-in-out infinite; }
+    .run { animation: run 6s linear infinite; }
+    @keyframes rise { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+    @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    @keyframes growy { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+    @keyframes pop { from { opacity: 0; transform: scale(.2); } to { opacity: 1; transform: none; } }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .35; } }
+    @keyframes twinkle { 0%, 100% { opacity: .15; } 50% { opacity: .6; } }
+    @keyframes run { from { stroke-dashoffset: 1000; } to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect width="1200" height="360" fill="#0b0b0d"/>
+  <rect width="1200" height="360" fill="url(#diamonds)" mask="url(#fadeMask)"/>
+  <ellipse cx="1060" cy="180" rx="340" ry="160" fill="url(#glow)"/>
+  
+  <g class="fade">
+    <rect class="growy" x="64" y="46" width="3" height="20" fill="#fe5206"/>
+    <text x="78" y="62" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="2.6">CURRENT FOCUS</text>
+  </g>
+  <text class="rise" style="animation-delay:0.1s" x="64" y="112" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="800" letter-spacing="-1"><tspan>What I'm</tspan><tspan fill="#fe5206" font-style="italic"> working</tspan><tspan fill="#fe5206" font-style="italic"> on</tspan></text>
+  <g class="rise" style="animation-delay:0.2s">
+    <rect x="64" y="165" width="8" height="8" fill="#fe5206" transform="rotate(45 68 169)"/>
+    <text x="90" y="172" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="21">Building thoughtful web experiences for academic and personal brands</text>
+  </g>
+  <g class="rise" style="animation-delay:0.28s">
+    <rect x="64" y="211" width="8" height="8" fill="#fe5206" transform="rotate(45 68 215)"/>
+    <text x="90" y="218" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="21">Exploring practical applications of AI and emerging technology</text>
+  </g>
+  <g class="rise" style="animation-delay:0.36s">
+    <rect x="64" y="257" width="8" height="8" fill="#fe5206" transform="rotate(45 68 261)"/>
+    <text x="90" y="264" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="21">Improving the connection between research, business, and digital storytelling</text>
+  </g>
+</svg>

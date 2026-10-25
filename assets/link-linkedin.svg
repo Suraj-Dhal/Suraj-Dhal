@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="80" viewBox="0 0 300 80" role="img" aria-label="LinkedIn: in/suraj-dhal">
+  <defs>
+    <pattern id="diamonds" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="translate(0 0)">
+      <rect width="40" height="40" fill="#0f0f11"/>
+      <path d="M20 0 40 20 20 40 0 20Z" fill="#151518"/>
+    </pattern>
+    <linearGradient id="fadeGrad" gradientUnits="userSpaceOnUse" x1="0" x2="1200" y1="0" y2="0">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.6" stop-color="#000"/>
+    </linearGradient>
+    <mask id="fadeMask"><rect width="300" height="80" fill="url(#fadeGrad)"/></mask>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#3e2219" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#3e2219" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .rise { animation: rise .8s cubic-bezier(.16,1,.3,1) both; }
+    .fade { animation: fade 1s ease both; }
+    .grow { transform-box: fill-box; transform-origin: left center; animation: grow .9s cubic-bezier(.16,1,.3,1) both; }
+    .growy { transform-box: fill-box; transform-origin: center top; animation: growy 1s cubic-bezier(.16,1,.3,1) both; }
+    .pop { transform-box: fill-box; transform-origin: center; animation: pop .6s cubic-bezier(.34,1.56,.64,1) both; }
+    .pulse { animation: pulse 2.8s ease-in-out infinite; }
+    .twinkle { animation: twinkle 4.2s ease-in-out infinite; }
+    .run { animation: run 6s linear infinite; }
+    @keyframes rise { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+    @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    @keyframes growy { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+    @keyframes pop { from { opacity: 0; transform: scale(.2); } to { opacity: 1; transform: none; } }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .35; } }
+    @keyframes twinkle { 0%, 100% { opacity: .15; } 50% { opacity: .6; } }
+    @keyframes run { from { stroke-dashoffset: 1000; } to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect width="300" height="80" fill="#0b0b0d"/>
+  <rect width="300" height="80" fill="url(#diamonds)" mask="url(#fadeMask)"/>
+  
+  <rect y="0" width="300" height="1" fill="#232328"/><rect y="79" width="300" height="1" fill="#232328"/>
+  <rect x="299" y="16" width="1" height="48" fill="#232328"/>
+  <g class="rise" style="animation-delay:0.1s">
+    <text x="64" y="34" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="2.2">LINKEDIN</text>
+    <text x="64" y="60" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="600">in/suraj-dhal</text>
+    <text x="272" y="52" text-anchor="end" fill="#fe5206" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700">↗</text>
+  </g>
+</svg>

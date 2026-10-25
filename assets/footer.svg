@@ -1,19 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-label="Let's connect and explore ideas. Bring different perspectives together. Turn ideas into meaningful solutions.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="Let's connect and explore ideas. Bring different perspectives together. Turn ideas into meaningful solutions.">
   <defs>
-    <pattern id="diamonds" width="40" height="40" patternUnits="userSpaceOnUse">
-      <rect width="40" height="40" fill="#101012"/>
-      <path d="M20 0 40 20 20 40 0 20Z" fill="#17171a"/>
+    <pattern id="diamonds" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="translate(0 0)">
+      <rect width="40" height="40" fill="#0f0f11"/>
+      <path d="M20 0 40 20 20 40 0 20Z" fill="#151518"/>
     </pattern>
-    <linearGradient id="fadeGrad" x1="0" x2="1" y1="0" y2="0">
+    <linearGradient id="fadeGrad" gradientUnits="userSpaceOnUse" x1="0" x2="1200" y1="0" y2="0">
       <stop offset="0" stop-color="#fff"/>
       <stop offset="0.6" stop-color="#000"/>
     </linearGradient>
-    <mask id="fadeMask"><rect width="1200" height="180" fill="url(#fadeGrad)"/></mask>
-    <radialGradient id="glow" cx="1040" cy="90" r="420" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#3e2219" stop-opacity="0.95"/>
+    <mask id="fadeMask"><rect width="1200" height="240" fill="url(#fadeGrad)"/></mask>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#3e2219" stop-opacity="0.9"/>
       <stop offset="1" stop-color="#3e2219" stop-opacity="0"/>
     </radialGradient>
-    <clipPath id="card"><rect width="1200" height="180" rx="16"/></clipPath>
+    <filter id="chipGlow" x="-40%" y="-80%" width="180%" height="260%"><feGaussianBlur stdDeviation="8"/></filter>
   </defs>
   <style>
     .rise { animation: rise .8s cubic-bezier(.16,1,.3,1) both; }
@@ -34,28 +34,26 @@
     @keyframes run { from { stroke-dashoffset: 1000; } to { stroke-dashoffset: 0; } }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
   </style>
-  <g clip-path="url(#card)">
-    <rect width="1200" height="180" fill="#0b0b0d"/>
-    <rect width="1200" height="180" fill="url(#diamonds)" mask="url(#fadeMask)"/>
-    <rect width="1200" height="180" fill="url(#glow)"/>
-  </g>
-  <rect x="0.5" y="0.5" width="1199" height="179" rx="15.5" fill="none" stroke="#2a2a2e"/>
-  <defs><filter id="chipGlow" x="-40%" y="-80%" width="180%" height="260%"><feGaussianBlur stdDeviation="8"/></filter></defs>
-  <rect class="growy" x="64" y="50" width="3" height="78" fill="#fe5206"/>
+  <rect width="1200" height="240" fill="#0b0b0d"/>
+  <rect width="1200" height="240" fill="url(#diamonds)" mask="url(#fadeMask)"/>
+  <ellipse cx="1000" cy="120" rx="420" ry="100" fill="url(#glow)"/>
+  <rect width="1200" height="1" fill="#232328"/>
+  <rect class="growy" x="64" y="78" width="3" height="80" fill="#fe5206"/>
   <g class="rise" style="animation-delay:0.1s">
-    <text x="82" y="80" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" letter-spacing="-0.5">Let's Connect &amp;</text>
-    <text x="82" y="120" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" letter-spacing="-0.5">Explore</text>
+    <text x="82" y="110" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" letter-spacing="-0.5">Let's Connect &amp;</text>
+    <text x="82" y="150" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="600" letter-spacing="-0.5">Explore</text>
   </g>
-  <rect class="pulse" x="204" y="92" width="104" height="38" rx="3" fill="#fe5206" filter="url(#chipGlow)" opacity=".7"/>
+  <rect class="pulse" x="204" y="122" width="104" height="38" rx="3" fill="#fe5206" filter="url(#chipGlow)" opacity=".7"/>
   <g class="pop" style="animation-delay:0.35s">
-    <rect x="204" y="92" width="104" height="38" rx="3" fill="#fe5206"/>
-    <text x="256" y="120" text-anchor="middle" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="600">Ideas ↗</text>
+    <rect x="204" y="122" width="104" height="38" rx="3" fill="#fe5206"/>
+    <text x="256" y="150" text-anchor="middle" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="600">Ideas ↗</text>
   </g>
   <g class="fade" style="animation-delay:0.25s">
-    <text x="424" y="82" fill="#a8a8ac" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-style="italic">Bring different perspectives together.</text>
-    <text x="424" y="116" fill="#a8a8ac" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-style="italic">Turn ideas into meaningful solutions.</text>
+    <text x="424" y="112" fill="#a8a8ac" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-style="italic">Bring different perspectives together.</text>
+    <text x="424" y="146" fill="#a8a8ac" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-style="italic">Turn ideas into meaningful solutions.</text>
   </g>
-  <text class="rise" style="animation-delay:0.4s" x="1136" y="68" text-anchor="end" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="500">in/suraj-dhal<tspan fill="#fe5206" dx="10">•</tspan></text>
-  <text class="rise" style="animation-delay:0.5s" x="1136" y="98" text-anchor="end" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="500">@surajdhal_insights<tspan fill="#fe5206" dx="10">•</tspan></text>
-  <text class="rise" style="animation-delay:0.6000000000000001s" x="1136" y="128" text-anchor="end" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="500">surajdhal.com<tspan fill="#fe5206" dx="10">•</tspan></text>
+  <text class="rise" style="animation-delay:0.4s" x="1136" y="100" text-anchor="end" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="500">in/suraj-dhal<tspan fill="#fe5206" dx="10">•</tspan></text>
+  <text class="rise" style="animation-delay:0.5s" x="1136" y="130" text-anchor="end" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="500">@surajdhal_insights<tspan fill="#fe5206" dx="10">•</tspan></text>
+  <text class="rise" style="animation-delay:0.6000000000000001s" x="1136" y="160" text-anchor="end" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="500">surajdhal.com<tspan fill="#fe5206" dx="10">•</tspan></text>
+  <text x="600" y="216" text-anchor="middle" fill="#55555c" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" letter-spacing="2">BHUBANESWAR, INDIA · OPEN TO CONNECT</text>
 </svg>

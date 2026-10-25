@@ -1,19 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-label="Education: Bachelor of Business Administration, Utkal University, 2025 to 2028; Digital Marketing and Analytics, Digital Academy 360, 2025. Certifications: Digital Marketing and Analytics, Google Ads, SEO, Social Media Marketing, Generative AI for Business.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Education: Bachelor of Business Administration, Utkal University, 2025 to 2028. Digital Marketing and Analytics, Digital Academy 360, 2025. Certifications: Digital Marketing and Analytics, Google Ads, SEO, Social Media Marketing, Generative AI for Business.">
   <defs>
-    <pattern id="diamonds" width="40" height="40" patternUnits="userSpaceOnUse">
-      <rect width="40" height="40" fill="#101012"/>
-      <path d="M20 0 40 20 20 40 0 20Z" fill="#17171a"/>
+    <pattern id="diamonds" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="translate(0 0)">
+      <rect width="40" height="40" fill="#0f0f11"/>
+      <path d="M20 0 40 20 20 40 0 20Z" fill="#151518"/>
     </pattern>
-    <linearGradient id="fadeGrad" x1="0" x2="1" y1="0" y2="0">
+    <linearGradient id="fadeGrad" gradientUnits="userSpaceOnUse" x1="0" x2="1200" y1="0" y2="0">
       <stop offset="0" stop-color="#fff"/>
       <stop offset="0.6" stop-color="#000"/>
     </linearGradient>
-    <mask id="fadeMask"><rect width="1200" height="250" fill="url(#fadeGrad)"/></mask>
-    <radialGradient id="glow" cx="1120" cy="250" r="420" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#3e2219" stop-opacity="0.95"/>
+    <mask id="fadeMask"><rect width="1200" height="440" fill="url(#fadeGrad)"/></mask>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#3e2219" stop-opacity="0.9"/>
       <stop offset="1" stop-color="#3e2219" stop-opacity="0"/>
     </radialGradient>
-    <clipPath id="card"><rect width="1200" height="250" rx="16"/></clipPath>
   </defs>
   <style>
     .rise { animation: rise .8s cubic-bezier(.16,1,.3,1) both; }
@@ -34,51 +33,48 @@
     @keyframes run { from { stroke-dashoffset: 1000; } to { stroke-dashoffset: 0; } }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
   </style>
-  <g clip-path="url(#card)">
-    <rect width="1200" height="250" fill="#0b0b0d"/>
-    
-    <rect width="1200" height="250" fill="url(#glow)"/>
+  <rect width="1200" height="440" fill="#0b0b0d"/>
+  <rect width="1200" height="440" fill="url(#diamonds)" mask="url(#fadeMask)"/>
+  
+  
+  <g class="fade">
+    <rect class="growy" x="64" y="46" width="3" height="20" fill="#fe5206"/>
+    <text x="78" y="62" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="2.6">EDUCATION</text>
   </g>
-  <rect x="0.5" y="0.5" width="1199" height="249" rx="15.5" fill="none" stroke="#2a2a2e"/>
-  <g class="fade" style="animation-delay:0s">
-    <rect class="growy" x="40" y="36" width="3" height="20" fill="#fe5206"/>
-    <text x="54" y="52" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="2.4">EDUCATION</text>
+  <text class="rise" style="animation-delay:0.1s" x="64" y="112" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="800" letter-spacing="-1"><tspan>Learning</tspan><tspan> and</tspan><tspan fill="#fe5206" font-style="italic"> credentials</tspan></text>
+  <text class="fade" x="64" y="164" fill="#fe5206" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2.4">EDUCATION</text>
+  <g class="rise" style="animation-delay:0.2s">
+    <text x="64" y="206" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700">Bachelor of Business Administration</text>
+    <text x="64" y="234" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17"><tspan fill="#fe5206" font-style="italic" font-weight="600">Utkal University</tspan>  ·  2025 – 2028</text>
   </g>
-  <g class="rise" style="animation-delay:0.15s">
-    <text x="40" y="96" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700">Bachelor of Business Administration</text>
-    <text x="40" y="124" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17"><tspan fill="#fe5206" font-style="italic" font-weight="600">Utkal University</tspan>  ·  2025 – 2028</text>
+  <g class="rise" style="animation-delay:0.32s">
+    <text x="64" y="278" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700">Digital Marketing and Analytics</text>
+    <text x="64" y="306" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17"><tspan fill="#fe5206" font-style="italic" font-weight="600">Digital Academy 360</tspan>  ·  2025</text>
   </g>
-  <g class="rise" style="animation-delay:0.27s">
-    <text x="40" y="168" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700">Digital Marketing and Analytics</text>
-    <text x="40" y="196" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17"><tspan fill="#fe5206" font-style="italic" font-weight="600">Digital Academy 360</tspan>  ·  2025</text>
-  </g>
-  <g class="fade" style="animation-delay:0.1s">
-    <rect class="growy" x="640" y="36" width="3" height="20" fill="#fe5206"/>
-    <text x="654" y="52" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="2.4">CERTIFICATIONS</text>
-  </g>
+  <text class="fade" style="animation-delay:0.1s" x="640" y="164" fill="#fe5206" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2.4">CERTIFICATIONS</text>
   <g class="rise" style="animation-delay:0.3s">
-    <rect x="640" y="76" width="342" height="36" rx="6" fill="#141418" stroke="#2a2a2e"/>
-    <circle cx="656" cy="94" r="3.5" fill="#fe5206"/>
-    <text x="668" y="100" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="500">Digital Marketing and Analytics</text>
+    <rect x="640" y="186" width="362" height="38" rx="6" fill="#131316" stroke="#232328"/>
+    <circle cx="657" cy="205" r="3.6" fill="#fe5206"/>
+    <text x="670" y="211" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500">Digital Marketing and Analytics</text>
   </g>
-  <g class="rise" style="animation-delay:0.36s">
-    <rect x="992" y="76" width="140" height="36" rx="6" fill="#141418" stroke="#2a2a2e"/>
-    <circle cx="1008" cy="94" r="3.5" fill="#fe5206"/>
-    <text x="1020" y="100" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="500">Google Ads</text>
+  <g class="rise" style="animation-delay:0.35s">
+    <rect x="640" y="236" width="148" height="38" rx="6" fill="#131316" stroke="#232328"/>
+    <circle cx="657" cy="255" r="3.6" fill="#fe5206"/>
+    <text x="670" y="261" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500">Google Ads</text>
   </g>
-  <g class="rise" style="animation-delay:0.42s">
-    <rect x="640" y="122" width="73" height="36" rx="6" fill="#141418" stroke="#2a2a2e"/>
-    <circle cx="656" cy="140" r="3.5" fill="#fe5206"/>
-    <text x="668" y="146" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="500">SEO</text>
+  <g class="rise" style="animation-delay:0.4s">
+    <rect x="798" y="236" width="77" height="38" rx="6" fill="#131316" stroke="#232328"/>
+    <circle cx="815" cy="255" r="3.6" fill="#fe5206"/>
+    <text x="828" y="261" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500">SEO</text>
   </g>
-  <g class="rise" style="animation-delay:0.48s">
-    <rect x="723" y="122" width="255" height="36" rx="6" fill="#141418" stroke="#2a2a2e"/>
-    <circle cx="739" cy="140" r="3.5" fill="#fe5206"/>
-    <text x="751" y="146" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="500">Social Media Marketing</text>
+  <g class="rise" style="animation-delay:0.45s">
+    <rect x="640" y="286" width="270" height="38" rx="6" fill="#131316" stroke="#232328"/>
+    <circle cx="657" cy="305" r="3.6" fill="#fe5206"/>
+    <text x="670" y="311" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500">Social Media Marketing</text>
   </g>
-  <g class="rise" style="animation-delay:0.54s">
-    <rect x="640" y="168" width="294" height="36" rx="6" fill="#141418" stroke="#2a2a2e"/>
-    <circle cx="656" cy="186" r="3.5" fill="#fe5206"/>
-    <text x="668" y="192" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="500">Generative AI for Business</text>
+  <g class="rise" style="animation-delay:0.5s">
+    <rect x="640" y="336" width="311" height="38" rx="6" fill="#131316" stroke="#232328"/>
+    <circle cx="657" cy="355" r="3.6" fill="#fe5206"/>
+    <text x="670" y="361" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="500">Generative AI for Business</text>
   </g>
 </svg>
