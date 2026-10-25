@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Experience: Freelancing Projects and Brand Building, Independent · Bhubaneswar, Present. Freelance projects and brand building, alongside my BBA at Utkal University. Digital Marketing Executive, Aveti Learning Pvt. Ltd. · Bhubaneswar, Jun 2025 – Sep 2025. Market research and multi-channel campaigns that raised brand visibility and tightened lead nurturing with cross-functional teams. Digital Marketing Intern, ScaleOXperts · Remote / Hybrid, Jun 2025 – Oct 2025. 15+ SEO audits, 1,000+ backlinks and content plans for 10+ clients. Named Best Intern of the Month. Sales and Marketing Intern, Aveti Learning Pvt. Ltd. · Bhubaneswar, Mar 2024 – Aug 2024. Built a verified database of 450+ school leads for regional expansion, plus market research and sales presentation assets.">
+  <defs>
+    <pattern id="diamonds" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="translate(0 0)">
+      <rect width="40" height="40" fill="#0f0f11"/>
+      <path d="M20 0 40 20 20 40 0 20Z" fill="#151518"/>
+    </pattern>
+    <linearGradient id="fadeGrad" gradientUnits="userSpaceOnUse" x1="0" x2="1200" y1="0" y2="0">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.6" stop-color="#000"/>
+    </linearGradient>
+    <mask id="fadeMask"><rect width="1200" height="800" fill="url(#fadeGrad)"/></mask>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#3e2219" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#3e2219" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .rise { animation: rise .8s cubic-bezier(.16,1,.3,1) both; }
+    .fade { animation: fade 1s ease both; }
+    .grow { transform-box: fill-box; transform-origin: left center; animation: grow .9s cubic-bezier(.16,1,.3,1) both; }
+    .growy { transform-box: fill-box; transform-origin: center top; animation: growy 1s cubic-bezier(.16,1,.3,1) both; }
+    .pop { transform-box: fill-box; transform-origin: center; animation: pop .6s cubic-bezier(.34,1.56,.64,1) both; }
+    .pulse { animation: pulse 2.8s ease-in-out infinite; }
+    .twinkle { animation: twinkle 4.2s ease-in-out infinite; }
+    .run { animation: run 6s linear infinite; }
+    @keyframes rise { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+    @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    @keyframes growy { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+    @keyframes pop { from { opacity: 0; transform: scale(.2); } to { opacity: 1; transform: none; } }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .35; } }
+    @keyframes twinkle { 0%, 100% { opacity: .15; } 50% { opacity: .6; } }
+    @keyframes run { from { stroke-dashoffset: 1000; } to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect width="1200" height="800" fill="#0b0b0d"/>
+  <rect width="1200" height="800" fill="url(#diamonds)" mask="url(#fadeMask)"/>
+  <ellipse cx="1040" cy="400" rx="380" ry="360" fill="url(#glow)"/>
+  
+  <g class="fade">
+    <rect class="growy" x="64" y="46" width="3" height="20" fill="#fe5206"/>
+    <text x="78" y="62" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="2.6">EXPERIENCE</text>
+  </g>
+  <text class="rise" style="animation-delay:0.1s" x="64" y="112" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="800" letter-spacing="-1"><tspan>Roles</tspan><tspan> and</tspan><tspan fill="#fe5206" font-style="italic"> results</tspan></text>
+  <rect class="growy" x="75" y="186" width="2" height="450" fill="#232328"/>
+  <rect class="growy" style="animation-delay:0.2s" x="75" y="186" width="2" height="450" fill="#fe5206" opacity=".55"/>
+  <circle class="pop" style="animation-delay:0.25s" cx="76" cy="186" r="9" fill="#0b0b0d" stroke="#fe5206" stroke-width="3"/>
+  <circle class="pop pulse" style="animation-delay:0.25s" cx="76" cy="186" r="3.5" fill="#fe5206"/>
+  <g class="rise" style="animation-delay:0.3s">
+    <text x="112" y="194" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="-.4">Freelancing Projects and Brand Building</text>
+    <text x="1136" y="194" text-anchor="end" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="1.2">PRESENT</text>
+    <text x="112" y="224" fill="#fe5206" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="600" font-style="italic">Independent · Bhubaneswar</text>
+    <text fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18"><tspan x="112" y="256">Freelance projects and brand building, alongside</tspan><tspan x="112" y="282">my BBA at Utkal University.</tspan></text>
+  </g>
+  <circle class="pop" style="animation-delay:0.55s" cx="76" cy="336" r="9" fill="#0b0b0d" stroke="#fe5206" stroke-width="3"/>
+  <circle class="pop pulse" style="animation-delay:0.55s" cx="76" cy="336" r="3.5" fill="#fe5206"/>
+  <g class="rise" style="animation-delay:0.6000000000000001s">
+    <text x="112" y="344" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="-.4">Digital Marketing Executive</text>
+    <text x="1136" y="344" text-anchor="end" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="1.2">JUN 2025 – SEP 2025</text>
+    <text x="112" y="374" fill="#fe5206" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="600" font-style="italic">Aveti Learning Pvt. Ltd. · Bhubaneswar</text>
+    <text fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18"><tspan x="112" y="406">Market research and multi-channel campaigns that raised brand visibility</tspan><tspan x="112" y="432">and tightened lead nurturing with cross-functional teams.</tspan></text>
+  </g>
+  <circle class="pop" style="animation-delay:0.85s" cx="76" cy="486" r="9" fill="#0b0b0d" stroke="#fe5206" stroke-width="3"/>
+  <circle class="pop pulse" style="animation-delay:0.85s" cx="76" cy="486" r="3.5" fill="#fe5206"/>
+  <g class="rise" style="animation-delay:0.9s">
+    <text x="112" y="494" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="-.4">Digital Marketing Intern</text>
+    <text x="1136" y="494" text-anchor="end" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="1.2">JUN 2025 – OCT 2025</text>
+    <text x="112" y="524" fill="#fe5206" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="600" font-style="italic">ScaleOXperts · Remote / Hybrid</text>
+    <text fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18"><tspan x="112" y="556">15+ SEO audits, 1,000+ backlinks and content plans for 10+ clients.</tspan><tspan x="112" y="582">Named Best Intern of the Month.</tspan></text>
+  </g>
+  <circle class="pop" style="animation-delay:1.15s" cx="76" cy="636" r="9" fill="#0b0b0d" stroke="#fe5206" stroke-width="3"/>
+  <circle class="pop pulse" style="animation-delay:1.15s" cx="76" cy="636" r="3.5" fill="#fe5206"/>
+  <g class="rise" style="animation-delay:1.2s">
+    <text x="112" y="644" fill="#f4f4f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="-.4">Sales and Marketing Intern</text>
+    <text x="1136" y="644" text-anchor="end" fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="1.2">MAR 2024 – AUG 2024</text>
+    <text x="112" y="674" fill="#fe5206" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="600" font-style="italic">Aveti Learning Pvt. Ltd. · Bhubaneswar</text>
+    <text fill="#a8a8ac" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18"><tspan x="112" y="706">Built a verified database of 450+ school leads for regional expansion,</tspan><tspan x="112" y="732">plus market research and sales presentation assets.</tspan></text>
+  </g>
+</svg>
