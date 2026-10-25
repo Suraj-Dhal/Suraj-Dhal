@@ -56,13 +56,18 @@
     <text x="75" y="259" text-anchor="middle" fill="#18181b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="500">React</text>
   </g>
   <g class="rise" style="animation-delay:0.53s">
-    <rect x="120" y="238" width="62" height="32" rx="5" fill="#ececec"/>
-    <circle cx="151" cy="238" r="3.2" fill="#fe5206"/>
-    <text x="151" y="259" text-anchor="middle" fill="#18181b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="500">Vite</text>
+    <rect x="120" y="238" width="110" height="32" rx="5" fill="#ececec"/>
+    <circle cx="175" cy="238" r="3.2" fill="#fe5206"/>
+    <text x="175" y="259" text-anchor="middle" fill="#18181b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="500">TypeScript</text>
   </g>
   <g class="rise" style="animation-delay:0.61s">
-    <rect x="192" y="238" width="126" height="32" rx="5" fill="#ececec"/>
-    <circle cx="255" cy="238" r="3.2" fill="#fe5206"/>
-    <text x="255" y="259" text-anchor="middle" fill="#18181b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="500">Tailwind CSS</text>
+    <rect x="240" y="238" width="62" height="32" rx="5" fill="#ececec"/>
+    <circle cx="271" cy="238" r="3.2" fill="#fe5206"/>
+    <text x="271" y="259" text-anchor="middle" fill="#18181b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="500">Vite</text>
+  </g>
+  <g class="rise" style="animation-delay:0.69s">
+    <rect x="312" y="238" width="126" height="32" rx="5" fill="#ececec"/>
+    <circle cx="375" cy="238" r="3.2" fill="#fe5206"/>
+    <text x="375" y="259" text-anchor="middle" fill="#18181b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="500">Tailwind CSS</text>
   </g>
 </svg>

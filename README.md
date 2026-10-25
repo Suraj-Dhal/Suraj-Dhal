@@ -41,14 +41,21 @@ Curious about emerging technologies, digital systems, and ideas that can solve r
 
 <p>
   <a href="https://sharanikadhal.co.in"><img alt="sharanikadhal.co.in: academic portfolio for Dr. Sharanika Dhal, Sri Sri University. React, TypeScript, Vite, Tailwind CSS." src="./assets/work-sharanikadhal.svg" width="49%"></a>
-  <a href="https://sunilkumardhal.in"><img alt="sunilkumardhal.in: academic portfolio for Dr. Sunil Kumar Dhal, Sri Sri University. React, Vite, Tailwind CSS." src="./assets/work-sunilkumardhal.svg" width="49%"></a>
+  <a href="https://sunilkumardhal.in"><img alt="sunilkumardhal.in: academic portfolio for Dr. Sunil Kumar Dhal, Sri Sri University. React, TypeScript, Vite, Tailwind CSS." src="./assets/work-sunilkumardhal.svg" width="49%"></a>
 </p>
 
-My own site, [surajdhal.com](https://surajdhal.com), launches soon.
+My own site, [surajdhal.com](https://surajdhal.com), launches soon with a motion-led landing page ([Coming_Soon](https://github.com/Suraj-Dhal/Coming_Soon)).
+More on GitHub: [SSU-portfolio](https://github.com/Suraj-Dhal/SSU-portfolio) · [Sharanika-Dhal-SSU](https://github.com/Suraj-Dhal/Sharanika-Dhal-SSU) · [SKD-2](https://github.com/Suraj-Dhal/SKD-2)
+
+## Current focus
+
+- Building thoughtful web experiences for academic and personal brands
+- Exploring practical applications of AI and emerging technology
+- Improving the connection between research, business, and digital storytelling
 
 ## Skills and tools
 
-<img alt="Growth: business development, lead generation, sales prospecting, market research, competitor analysis, negotiation support. Marketing: SEO audits, social media strategy, Google Ads, Google Business Profile, content strategy, CRM management. Tools and build: Canva, Excel, Google Sheets, PowerPoint, ChatGPT, WordPress, React, Tailwind CSS." src="./assets/skills.svg" width="100%">
+<img alt="Growth: business development, lead generation, sales prospecting, market research, competitor analysis, negotiation support. Marketing: SEO audits, social media strategy, Google Ads, Google Business Profile, content strategy, CRM management. Tools and build: Canva, Excel, Google Sheets, PowerPoint, ChatGPT, WordPress, React, Framer Motion, Supabase." src="./assets/skills.svg" width="100%">
 
 ## Education and certifications
 
